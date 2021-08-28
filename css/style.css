@@ -1,0 +1,84 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    background-color: #3B1D60;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    flex: 0 1 60px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    opacity: 0.9;
+
+}
+
+
+.navs {
+    display: flex;
+    justify-self: start;
+    margin-right: auto;
+}
+
+.navs div {
+    padding: 11.5px 10px;
+    cursor: pointer;
+}
+
+.navs div:hover {
+    background-color: #634A83;
+}
+
+
+.buttons {
+    display: flex;
+    justify-self: end;
+}
+
+.header__sign-in:hover {
+    background-color: #f2994a;
+    color: black;
+}
+
+.header__sign-up {
+    margin-left: 20px;
+}
+
+.header__sign-up:hover {
+    background-color: inherit;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #f2994a;
+    border-color: #F2994A;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn-transparent {
+    background-color: inherit;
+}
+
+.btn-orange {
+    background-color: #f2994a;
+}
+
+/*  */
+
