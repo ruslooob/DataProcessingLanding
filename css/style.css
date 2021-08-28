@@ -1,7 +1,8 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    color: white;
+    line-height: 22px;
+    color: #8476AA;
     background-color: #3B1D60;
 }
 
@@ -15,6 +16,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 
@@ -80,5 +82,78 @@ body {
     background-color: #f2994a;
 }
 
-/*  */
+/* intro */
 
+.intro {
+    display: inline-block;
+}
+
+.intro__container {
+    display: flex;
+}
+
+.intro__header {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #99EFD0;
+}
+
+.intro__text {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.intro__buttons {
+    margin-bottom: 40px;
+}
+
+.intro__learn-more:hover {
+    background-color: inherit;
+}
+
+.intro__demo {
+    padding-left: 46.5px;
+    padding-right: 46.5px;
+    margin-left: 20px;
+}
+
+.intro__demo:hover {
+    background-color: #F2994A;
+    color: black;
+}
+
+.preview {
+    display: flex;
+}
+
+.preview__video {
+    cursor: pointer;
+}
+
+.preview__video:hover {
+    opacity: 0.8;
+}
+
+.preview__text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.preview_header {
+    font-size: 16px;
+}
+.preview__watch {
+    font-size: 14px;
+    color: #6D6D78;
+    cursor: pointer;
+}
+
+.run-man {
+    margin-bottom: 1500px;
+    margin-left: 500px;
+}
