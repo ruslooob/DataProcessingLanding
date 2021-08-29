@@ -49,6 +49,7 @@ body {
 .navs div {
     padding: 11.5px 10px;
     cursor: pointer;
+    letter-spacing: 2px;
 }
 
 .navs div:hover {
@@ -75,6 +76,8 @@ body {
 }
 
 .btn {
+    font-weight: 500;
+    letter-spacing: 2px;
     padding: 10px 20px;
     border: 1px solid #f2994a;
     border-color: #F2994A;
@@ -159,6 +162,10 @@ body {
     cursor: pointer;
 }
 
+.preview__watch:hover {
+    text-decoration: underline;
+}
+
 .intro__wrapper {
     width: 1100px;
     margin: 0 auto;
@@ -185,7 +192,7 @@ body {
 .partners img {
     margin-right: 30px;
     cursor: pointer;
-    padding: 10px 15px; 
+    padding: 10px 15px;
 }
 
 .partners img:last-child {
@@ -199,6 +206,10 @@ body {
 
 /* your choise */
 
+.choise {
+    margin-top: 80px;
+}
+
 .choise__header {
     text-align: center;
     color: #99EFD0;
@@ -208,13 +219,14 @@ body {
 
 .choise__annotation {
     text-align: center;
-    
+
 }
 
 .choise__list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    margin-left: 35px;
 }
 
 .choise__list li {
@@ -286,9 +298,114 @@ body {
 }
 
 
-
 .choise__list li h3 {
     color: #99EFD0;
     font-size: 18px;
     line-height: 22px;
+}
+
+
+/* increase */
+.increase {
+    margin-top: 100px;
+    display: flex;
+}
+
+.increase__header {
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #99EFD0;
+}
+
+.increase__header span {
+    color: #F2994A;
+}
+
+.increase__subheader {
+    line-height: 28px;
+    margin: 50px 0;
+}
+
+.increase__learn-more-btn {
+    text-transform: uppercase;
+}
+
+.increase__learn-more-btn:hover {
+    background-color: inherit;
+}
+
+
+.incrase__graphics {
+    height: 0;
+}
+
+.increase__graph {
+    position: relative;
+    left: 100px;
+    top: -120px;
+}
+
+.increase__arrow-up {
+    position: relative;
+    left: 220px;
+    top: -75px;
+}
+
+.increase__dots {
+    position: relative;
+    left: 270px;
+    top: -115px;
+    z-index: -1;
+}
+
+/* 3 simple ways */
+
+.three-ways {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.three-ways__header {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.22px;
+    color: #99EFD0;
+}
+
+.three-ways__subheader {
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.three-ways__header span {
+    color: #F2994A;
+}
+
+
+.three-ways__statistics {
+    display: flex;
+    list-style: none;
+}
+
+.three-ways__statistics li {
+    display: flex;
+    flex: 0 0 33.33%;
+    flex-direction: column;
+}
+
+.three-ways__number {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.33px;
+    color: #99EFD0;
+}
+
+.three-ways__text {
+    line-height: 22px;
+    letter-spacing: .2px;
 }
