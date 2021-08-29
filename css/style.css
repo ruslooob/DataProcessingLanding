@@ -1,3 +1,7 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif; */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -10,6 +14,11 @@ body {
     width: 1100px;
     margin: 0 auto;
     margin-top: 40px;
+}
+
+.container-small {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 /* header */
@@ -85,11 +94,7 @@ body {
 /* intro */
 
 .intro {
-    display: inline-block;
-}
-
-.intro__container {
-    display: flex;
+    flex-shrink: 0;
 }
 
 .intro__header {
@@ -147,13 +152,143 @@ body {
 .preview_header {
     font-size: 16px;
 }
+
 .preview__watch {
     font-size: 14px;
     color: #6D6D78;
     cursor: pointer;
 }
 
-.run-man {
-    margin-bottom: 1500px;
-    margin-left: 500px;
+.intro__wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    overflow: visible;
+}
+
+.intro__img {
+    position: relative;
+    background: url("../img/run-man.svg") no-repeat;
+    width: 50%;
+    margin-left: 40px;
+}
+
+/* partners */
+
+.partners {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.partners img {
+    margin-right: 30px;
+    cursor: pointer;
+    padding: 10px 15px; 
+}
+
+.partners img:last-child {
+    margin-right: 0;
+}
+
+.partners img:hover {
+    opacity: 0.7;
+    background-color: #634A83;
+}
+
+/* your choise */
+
+.choise__header {
+    text-align: center;
+    color: #99EFD0;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.choise__annotation {
+    text-align: center;
+    
+}
+
+.choise__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.choise__list li {
+    flex: 0 0 33.33%;
+    position: relative;
+}
+
+.choise__list li:nth-child(1):before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    background: url("../img/Stockholm-icons-Design-Flip-horizontal.svg");
+    width: 24px;
+    height: 24px;
+}
+
+.choise__list li:nth-child(2):before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    background: url("../img/Stockholm-icons-Devices-Airpods.svg");
+    width: 24px;
+    height: 24px;
+}
+
+
+.choise__list li:nth-child(3):before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    background: url("../img/Stockholm-icons-Devices-LTE1.svg");
+    width: 24px;
+    height: 24px;
+}
+
+.choise__list li:nth-child(4):before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    background: url("../img/Stockholm-icons-General-Thunder-move.svg");
+    width: 24px;
+    height: 24px;
+}
+
+
+.choise__list li:nth-child(5):before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    background: url("../img/Stockholm-icons-General-Attachment1.svg");
+    width: 24px;
+    height: 24px;
+}
+
+
+.choise__list li:nth-child(6):before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    background: url("../img/Stockholm-icons-Home-Bulb1.svg");
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.choise__list li h3 {
+    color: #99EFD0;
+    font-size: 18px;
+    line-height: 22px;
 }
