@@ -234,67 +234,48 @@ body {
     position: relative;
 }
 
-.choise__list li:nth-child(1):before {
+
+.choise__list li:nth-child(1):before,
+.choise__list li:nth-child(2):before,
+.choise__list li:nth-child(3):before,
+.choise__list li:nth-child(4):before,
+.choise__list li:nth-child(5):before,
+.choise__list li:nth-child(6):before
+ {
     content: "";
     position: absolute;
     top: 15px;
     left: -35px;
-    background: url("../img/Stockholm-icons-Design-Flip-horizontal.svg");
     width: 24px;
     height: 24px;
 }
 
+
+.choise__list li:nth-child(1):before {
+    background: url("../img/Stockholm-icons-Design-Flip-horizontal.svg");
+}
+
 .choise__list li:nth-child(2):before {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: -35px;
-    background: url("../img/Stockholm-icons-Devices-Airpods.svg");
-    width: 24px;
-    height: 24px;
+ background: url("../img/Stockholm-icons-Devices-Airpods.svg");
 }
 
 
 .choise__list li:nth-child(3):before {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: -35px;
     background: url("../img/Stockholm-icons-Devices-LTE1.svg");
-    width: 24px;
-    height: 24px;
 }
 
 .choise__list li:nth-child(4):before {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: -35px;
     background: url("../img/Stockholm-icons-General-Thunder-move.svg");
-    width: 24px;
-    height: 24px;
 }
 
 
 .choise__list li:nth-child(5):before {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: -35px;
     background: url("../img/Stockholm-icons-General-Attachment1.svg");
-    width: 24px;
-    height: 24px;
 }
 
 
 .choise__list li:nth-child(6):before {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: -35px;
     background: url("../img/Stockholm-icons-Home-Bulb1.svg");
-    width: 24px;
-    height: 24px;
 }
 
 
@@ -408,4 +389,39 @@ body {
 .three-ways__text {
     line-height: 22px;
     letter-spacing: .2px;
+}
+
+/* next project */
+
+.next-project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.next-project__header {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #99EFD0;
+    text-align: center;
+}
+
+.next-project__header span {
+    color: #F2994A;
+}
+
+.next-project__button {
+    margin: 40px 0 50px;
+    align-self: center;
+}
+
+.next-project__button:hover {
+    background-color: inherit;
+}
+
+.next-project__arena {
+    position: relative;
+    top: -150px;
+    z-index: -1;
 }
