@@ -425,3 +425,60 @@ body {
     top: -150px;
     z-index: -1;
 }
+
+/* invset */
+
+.invest {
+    display: flex;
+    margin-top: -100px;
+}
+
+.invest__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.invest__header {
+    font-size: 42px;
+    line-height: 50px;
+    color: #99EFD0;
+}
+
+.invest__header span {
+    color: #F2994A;
+}
+
+.invest__subheader {
+    margin: 20px 0 30px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+.invest__button {
+    align-self: flex-start;
+}
+
+.invest__button:hover {
+    background-color: inherit;
+}
+
+.invest__card {
+    position: relative;
+    /* left: 100px; */
+    z-index: 1;
+}
+
+.invest__arrow-up {
+    position: relative;
+    width: 90px;
+    height: 90px;  
+    left: 50px;
+    top: -190px;
+    z-index: 2;
+}
+
+.invest__month {
+    position: relative;
+    left: 330px;
+    top: -200px;    
+}
